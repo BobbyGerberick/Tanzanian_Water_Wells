@@ -21,10 +21,6 @@ The [data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-
 
 ## Data Preparation
 
-<p align="center">
-  <img width="500" height="400" src="images/">
-</p>
-
 The data contained a ternary classification problem by nature. The target column had three unique values:
   1. Functional
   2. Functional needs repairs
