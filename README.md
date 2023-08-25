@@ -44,11 +44,11 @@ As this Logistic Regression model was only 73% precise, we ran a Decision Tree m
 
 ## Next Steps
 
-1. Inferential Modeling:
+1. **Inferential Modeling**: We would like to dive deeper into the feature importance of our data to see which variables had the largest effect on whether or not a water well is operational.
 
-2. Where and how new wells should be built:
+2. **Where and how new wells should be built**: We would also like to design a model to predict where, geographically speaking, to build new wells and how to build them. Specifically, what type of equipment to use when installing the new wells.
 
-3. Pull more recent data:
+3. **Pull more recent data**: The most recent data in the data set we used was over ten years old. We want to use more recent data to make our analysis more relevant.
 
 ## Repository Structure
 
