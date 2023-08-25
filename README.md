@@ -46,10 +46,11 @@ As this Logistic Regression model was only 73% precise, we ran a Decision Tree m
 Our baseline decision tree model had a precision score of over 84%. We tried to improve with using the same [GridSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) as in our Logistic Regression model but the baseline model preformed best.
 
 <p align="center">
-  <img width="400" height="300" src="Decision Tree.PNG">
+  <img width="400" height="300" src="images/Decision Tree.PNG">
 </p>
 
 ## Conclusion - Final Model Evaluation
+Our final precision score of 84% is quite good considering the data we were working with. We chose precision are as our metric because we wanted to limit the number of false positives as much as possible. In practice a false positive would me classifying a broken well as operational. This could have a significant impact on the people relying on that well for water. Our final precision score means that there is only a 16% chance of incorrectly identifying a given well as operational when it is not.
 
 ## Next Steps
 
