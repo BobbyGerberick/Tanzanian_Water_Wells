@@ -8,7 +8,18 @@ Tanzania is a developing country with a population of over 57 million people. Th
 
 ## The Data
 
+The [data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) we used comes from [Taarifa](https://taarifa.org/). Taarifa is an open-source platform for crowdsourced reporting of infrastructure-related issues. This data consists of a surplus of information on the wells, including location, pump type, water quality, who manages the well, who funded the well, and much more.
+
 ## Data Preparation
+
+The data contained a ternary classification problem by nature. The target column had three unique values:
+  1. Functional
+  2. Functional needs repairs
+  3. Non-functional
+
+This was turned into a binary classification problem by grouping ‘Functional’ and ‘Functional needs repairs’ into one group labeled ‘Operational’. Then, ‘Non-functional’ was relabeled to ‘Non-operational’.
+
+There were a lot of null values within this dataset. In order to keep the majority of the data, an imputation process was implemented. Specifically, the MissForest imputer was used. This machine-learning process uses decision trees and random forests to predict missing values. This is one of the best ways to impute nulls and keep the data distribution intact.
 
 ## Modeling - Logistic Regression
 
@@ -23,3 +34,9 @@ As this Logistic Regression model was only 73% precise, we ran a Decision Tree m
 ## Conclusion - Final Model Evaluation
 
 ## Next Steps
+
+1. Inferential Modeling:
+
+2. Where and how new wells should be built:
+
+3. Pull more recent data:
