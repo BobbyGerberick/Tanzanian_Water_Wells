@@ -1,7 +1,7 @@
 # Tanzanian Water Wells
 
 <p align="center">
-  <img width="400" height="300" src="images/well_hands.png">
+  <img width="300" height="200" src="images/well_hands.png">
 </p>
 
 ## Overview
