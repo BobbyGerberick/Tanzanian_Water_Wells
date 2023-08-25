@@ -1,7 +1,7 @@
 # Tanzanian Water Wells
 
 <p align="center">
-  <img width="300" height="200" src="images/well_hands.png">
+  <img width="400" height="300" src="images/well_hands.png">
 </p>
 
 ## Overview
@@ -39,7 +39,7 @@ There were a lot of null values within this dataset. In order to keep the majori
 The first model we evaluated was a Logistic Regression model. Using [GridSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html), we were able to optimize the hyperparameters of the model. Seeing as our goal was to minimize the occurrence of 'false positives - non-operational well labeled as operational - we focused on the precision score metric. Our logistic regression model was 73% precise when predicting the condition of water wells in Tanzania. 
 
 <p align="center">
-  <img width="500" height="400" src="images/Screenshot 2023-08-25 at 10.19.48 AM.png">
+  <img width="400" height="300" src="images/Screenshot 2023-08-25 at 10.19.48 AM.png">
 </p>
 
 
