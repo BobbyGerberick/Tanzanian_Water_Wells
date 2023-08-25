@@ -12,7 +12,7 @@ Tanzania is a developing country with a population of over 57 million people. Th
 
 ## Modeling - Logistic Regression
 
-The first model we evaluated was a Logistic Regression model. Using 'GridSearchCV', we were able to optimize the hyperparameters of the model. Seeing as our goal was to minimize the occurrence of 'false positives - non-operational well labeled as operational - we focused on the precision score metric. Our logistic regression model was 73% precise when predicting the condition of water wells in Tanzania. 
+The first model we evaluated was a Logistic Regression model. Using [GridSearch]([https://www.google.com](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html), we were able to optimize the hyperparameters of the model. Seeing as our goal was to minimize the occurrence of 'false positives - non-operational well labeled as operational - we focused on the precision score metric. Our logistic regression model was 73% precise when predicting the condition of water wells in Tanzania. 
 
 img: ROC Curve
 
