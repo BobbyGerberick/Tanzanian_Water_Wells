@@ -43,6 +43,12 @@ As this Logistic Regression model was only 73% precise, we ran a Decision Tree m
 
 ## Modeling - Decision Tree
 
+Our baseline decision tree model had a precision score of over 84%. We tried to improve with using the same [GridSearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) as in our Logistic Regression model but the baseline model preformed best.
+
+<p align="center">
+  <img width="400" height="300" src="images/Screenshot 2023-08-25 at 10.19.48 AM.png">
+</p>
+
 ## Conclusion - Final Model Evaluation
 
 ## Next Steps
